@@ -20,7 +20,7 @@ case 'sqrt': res = calc.sqrt(a); break;
 case 'mod': res = calc.mod(a, b); break;
 default: throw new Error('Unknown operation: ' + op);
 }
-console.log('Result:', res);
+console.log('Results:', res);
 } catch (e) {
 console.error('Error:', e.message);
 process.exit(1);
