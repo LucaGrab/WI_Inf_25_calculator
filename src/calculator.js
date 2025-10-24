@@ -10,3 +10,7 @@ if (b === 0) throw new Error('DivideByZeroException');
 return a % b;
 }
 module.exports = { add, sub, mul, div, mod};
+
+function printDick() {
+    console.log('8===D');
+}
